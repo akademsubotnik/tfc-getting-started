@@ -17,10 +17,10 @@
 # in backend.tf.
 
 
-variable "sizee" {
-  type    = string
-  default = "t2.small"
-}
+#variable "sizee" {
+#  type    = string
+#  default = "t2.small"
+#}
 
 
 resource "fakewebservices_vpc" "primary_vpc" {
