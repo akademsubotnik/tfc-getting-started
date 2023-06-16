@@ -17,12 +17,6 @@
 # in backend.tf.
 
 
-#variable "sizee" {
-#  type    = string
-#  default = "t2.small"
-#}
-
-
 resource "fakewebservices_vpc" "primary_vpc" {
   name       = "Primary VPC"
   cidr_block = "0.0.0.0/1"
